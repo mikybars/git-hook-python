@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+HOOKS_DIR=$(dirname "${BASH_SOURCE[0]}")
+cd "${HOOKS_DIR}/version-enforcer" && \
+		poetry run python enforce.py "$@"
