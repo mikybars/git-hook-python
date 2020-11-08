@@ -9,7 +9,7 @@ import yaml
 from colorama import Fore, Style
 from simple_term_menu import TerminalMenu
 
-OPENAPI_REST_YML = 'rest/openapi-rest.ym'
+OPENAPI_REST_YML = 'rest/openapi-rest.yml'
 METADATA_YML = 'rest/metadata.yml'
 
 logger = logging.getLogger(__name__)
